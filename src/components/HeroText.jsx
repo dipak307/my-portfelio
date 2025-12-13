@@ -61,9 +61,18 @@ const HeroText = () => {
           animate="visible"
           transition={{ delay: 1 }}
         >
-          Hi,I'm Ali
+          Hi,I'm Dipak 
         </motion.p>
         <div>
+          <motion.p
+            className="text-5xl font-black text-neutral-300"
+            variants={variants}
+            initial="hidden"
+            animate="visible"
+            transition={{ delay: 1.2 }}
+          >
+            A Full Stack Developer
+          </motion.p>
           <motion.p
             className="text-5xl font-black text-neutral-300"
             variants={variants}
